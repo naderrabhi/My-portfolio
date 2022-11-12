@@ -1,0 +1,38 @@
+.app___welcome {
+    position: relative;
+    height: 100vh;
+    margin-top: 12vh;
+    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.app___welcome p {
+    width: 50%;
+    font-family: var(--font-base);
+    font-size: 1.5rem;
+    letter-spacing: 0.18rem;
+    line-height: 1.8rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .app___welcome p {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .app___welcome p {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .app___welcome p {
+        width: 95%;
+    }
+}

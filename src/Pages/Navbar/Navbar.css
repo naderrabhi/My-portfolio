@@ -1,0 +1,62 @@
+.sideMenuShow {
+  position: fixed;
+  height: 100vh;
+  width: 15rem;
+  left: 0;
+  top: 0;
+  background: #932432;
+  transition: 0.8s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+}
+.sideMenuHide {
+  position: fixed;
+  height: 100vh;
+  width: 5rem;
+  left: 0;
+  top: 0;
+  background: #932432;
+  transition: 0.8s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 60%;
+  height: 50%;
+}
+
+.navbarItem {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 23px;
+  color: #F3F3F3;
+}
+.navbarItem:hover {
+  cursor: pointer;
+  color: #3C1874;
+}
+
+.navbarItem span {
+  
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.navbarItem span svg {
+  font-size: 35px;
+}

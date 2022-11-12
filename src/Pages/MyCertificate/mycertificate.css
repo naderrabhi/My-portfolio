@@ -1,0 +1,21 @@
+.app___certif {
+    height: 100%;
+    background-color: var(--color-blue);
+    text-align: center;
+}
+
+.app___certif img{
+    width: 50%;
+}
+
+.app___certif h1 {
+    color: var(--color-white);
+    font-family: var(--font-base);
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .app___certif img{
+        width: 100%;
+    }
+}

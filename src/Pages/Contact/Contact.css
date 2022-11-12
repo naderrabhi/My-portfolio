@@ -1,0 +1,98 @@
+.contact {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    padding: 0;
+    margin: 0 0 0 10%;
+}
+
+.contact--row {
+    text-align: center;
+}
+
+.contact--header {
+    font-weight: bold;
+    letter-spacing: 0.075rem;
+    text-align: center;
+    margin: 0 0 2rem 0;
+    display: block;
+    font-size: 3rem;
+    position: relative;
+    color: #111;
+}
+
+.contact--text {
+    display: block;
+    text-align: center;
+    color: #555;
+    font-size: 1.15rem;
+    font-weight: 500;
+    max-width: 80rem;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+
+.contact--card {
+    width: 75%;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+}
+
+.button button {
+    color: white;
+    background-color: #932432;
+    border: none;
+}
+
+.button button:hover {
+    color: white;
+    background-color: #932432;
+    border: none;
+}
+
+.form-control {
+    background-color: #F3F3F3;
+}
+
+.form-control:focus {
+    background-color: #F3F3F3;
+}
+
+label {
+    margin-bottom: 0.25em;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 2000px){
+    .contact {
+        margin-left: 11%;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .contact--card {
+        width: 90%;
+        padding: 1rem;
+    }
+    .contact {
+        height: 100%;
+        margin-left: 11%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .contact {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .contact--card {
+        width: 90%;
+        padding: 1rem;
+    }
+}
