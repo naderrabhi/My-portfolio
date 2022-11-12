@@ -2,11 +2,6 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
 import Navbar from './Components/Navbar/Navbar'
-// import { Route, Routes } from 'react-router-dom';
-// import Home from './Pages/Home/Home';
-// import About from './Pages/About/About';
-// import Skills from './Pages/Skills/Skills';
-// import Contact from './Pages/Contact/Contact';
 import Welcome from './Pages/Welcome/Welcome';
 import AboutMe from './Pages/AboutMe/AboutMe';
 import MyCertificate from './Pages/MyCertificate/MyCertificate';
@@ -38,12 +33,6 @@ function App() {
       <MyCertificate />
       <MyProjects />
       <Footer />
-      {/* <Routes>
-        <Route path='/' element={ <div className="app"><Home /><About /><Skills /><Contact /></div> }/>
-        <Route path='/about' element={ <About /> }/>
-        <Route path='/skills' element={ <Skills /> }/>
-        <Route path='/contact' element={ <Contact /> }/>
-      </Routes> */}
     </div>
   );
 }
