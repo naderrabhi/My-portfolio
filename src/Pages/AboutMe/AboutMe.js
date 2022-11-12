@@ -4,7 +4,7 @@ import nader from "../../assets/image/nader.png";
 
 const AboutMe = () => {
   return (
-    <div className="app___about section__padding">
+    <div className="app___about section__padding" id="about">
       <div className="app__aboutme-overlay flex__center ">
         <img src={nader} alt="nader rabhi" />
       </div>

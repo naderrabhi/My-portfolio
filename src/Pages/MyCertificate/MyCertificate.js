@@ -10,7 +10,7 @@ const MyCertificate = () => {
     setIndex(selectedIndex);
   };
   return (
-    <div className="app___certif section__padding">
+    <div className="app___certif section__padding" id='my-certif'>
       <h1>My Certificate</h1>
       <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>

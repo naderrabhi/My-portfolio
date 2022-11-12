@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const MyProjects = () => {
   return (
     
-        <div className='app___project section__padding'>
+        <div className='app___project section__padding' id='my-projects'>
         <h1>My Latest Project</h1>
         <div className="app__project-list">
         <Link to='my-projects/project1'>

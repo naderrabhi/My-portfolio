@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo p__opensans">
-        <Link to='/'>NR</Link>
+        <Link to="/">NR</Link>
       </div>
       <ul className="app___navbar-links">
         <li className="p__opensans">
@@ -22,10 +22,10 @@ const Navbar = () => {
           <Link to="/about">About</Link>
         </li>
         <li className="p__opensans">
-          <Link to="/my-project">My Project</Link>
+          <Link to="/my-certif">My Certificate</Link>
         </li>
         <li className="p__opensans">
-          <Link to="/contact">Contact</Link>
+          <Link to="/my-projects">My Project</Link>
         </li>
       </ul>
       <div className="app___navbar-social flex__center">
@@ -50,17 +50,17 @@ const Navbar = () => {
               }}
             />
             <ul className="app___navbar-smallscreen-links">
-              <li className="p__opensans">
+              <li onClick={()=>setToggleMenu(false)} className="p__opensans">
                 <Link to="/">Home</Link>
               </li>
-              <li className="p__opensans">
+              <li onClick={()=>setToggleMenu(false)} className="p__opensans">
                 <Link to="/about">About</Link>
               </li>
-              <li className="p__opensans">
-                <Link to="/my-project">My Project</Link>
+              <li onClick={()=>setToggleMenu(false)} className="p__opensans">
+                <Link to="/my-certif">My Certificate</Link>
               </li>
-              <li className="p__opensans">
-                <Link to="/contact">Contact</Link>
+              <li onClick={()=>setToggleMenu(false)} className="p__opensans">
+                <Link to="/my-project">My Project</Link>
               </li>
             </ul>
           </div>
