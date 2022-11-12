@@ -10,22 +10,7 @@ import { Route,Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 
 
-function App() {
-  const [width, setWidth] = useState(window.innerWidth)
-  
-  useEffect(() => {
-    const updateWidth = () => {
-      setWidth(window.innerWidth)
-      console.log(width)
-    }
-    window.addEventListener("resize", updateWidth);
-    return () => window.removeEventListener("resize", updateWidth)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
-
-  console.log(width)
-
-  
+function App() {  
   return (
     <div className='App'>
       <Navbar />

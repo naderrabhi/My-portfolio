@@ -22,10 +22,10 @@ const Navbar = () => {
           <Link to="/about">About</Link>
         </li>
         <li className="p__opensans">
-          <Link to="/my-certif">My Certificate</Link>
+          <Link to="/my-certif">My Certificates</Link>
         </li>
         <li className="p__opensans">
-          <Link to="/my-projects">My Project</Link>
+          <Link to="/my-projects">My Projects</Link>
         </li>
       </ul>
       <div className="app___navbar-social flex__center">
@@ -57,10 +57,10 @@ const Navbar = () => {
                 <Link to="/about">About</Link>
               </li>
               <li onClick={()=>setToggleMenu(false)} className="p__opensans">
-                <Link to="/my-certif">My Certificate</Link>
+                <Link to="/my-certif">My Certificates</Link>
               </li>
               <li onClick={()=>setToggleMenu(false)} className="p__opensans">
-                <Link to="/my-project">My Project</Link>
+                <Link to="/my-projects">My Projects</Link>
               </li>
             </ul>
           </div>
